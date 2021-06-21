@@ -1,38 +1,30 @@
 <div class="wrapper">
   <%# header %>
   <div class="header">
-    <div class="header_left">
-      <div class="app_name">
-        <h2>Quick Pick</h４>
-      </div>
-    </div>
-
-    <div class="header_right">
-      <div class="nav">
-        <li><%= link_to 'お気に入り', '#', class: "favorite"%></li>
-        <li><%= link_to '新規登録', '#', class: "sign-up"%></li>
-        <li><%= link_to 'ログイン', '#', class: "sign-in"%></li>
-      </div>
-    </div>
+    <%= render "shared/header" %>
   </div>
 
-  <%# main %>
   <div class="main">
+    <%# トップ画面の画像 %>
     <div class="top-img-box">
         <%= image_tag "top_img.png", class: "top-img"%>
     </div>
 
+    <%# サービス紹介 %>
     <div class="introduction">
       <h4 class="topic">簡単にお店を見つけられる、Quick Pickのサービス！</h4>
     </div>
 
-    <div>
+    <div class="intro-img">
       <%= image_tag "intro1.png", class: "left-intro"%>
       <%= image_tag "intro2.png", class: "right-intro"%>
     </div>
 
-    <div>
-      <button>お店を探す</button>
+    <%# 画面遷移ボタン %>
+    <div class="btn-area">
+      <div class="btn">
+        <button type="button" class="btn btn-success">お店を探す</button>
+      </div>
     </div>
   </div>
 </div>

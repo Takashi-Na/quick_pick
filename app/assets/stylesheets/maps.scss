@@ -1,5 +1,5 @@
 * {
-  background-color: floralwhite;
+  background-color: ivory;
 }
 
 // ヘッダー部分
@@ -45,4 +45,35 @@
 .introduction {
   display: flex;
   justify-content: center;
+}
+
+.topic {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.intro-img {
+  display: flex;
+  justify-content: center;
+}
+
+.left-intro {
+  margin-right: 10px;
+}
+
+.right-intro {
+  margin-left: 10px;
+}
+
+// ボタン関係
+.btn-area {
+  display: flex;
+  justify-content: center;
+  height: 20vh;
+}
+
+.btn {
+  height: 50px;
+  width: 500px;
+  margin-top: 25px;
 }
