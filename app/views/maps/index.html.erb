@@ -1,1 +1,32 @@
-<h1>トップページ</h1>
+<div class="wrapper">
+  <%# header %>
+  <div class="header">
+    <div class="header_left">
+      <div class="app_name">
+        <h3>Quick Pick</h3>
+      </div>
+    </div>
+
+    <div class="header_right">
+      <div class="nav">
+        <li><%= link_to 'お気に入り', '#', class: "favorite"%></li>
+        <li><%= link_to '新規登録', '#', class: "sign-up"%></li>
+        <li><%= link_to 'ログイン', '#', class: "sign-in"%></li>
+      </div>
+    </div>
+  </div>
+
+  <%# main %>
+  <div class="main">
+    <div class="top-img">
+      <div class="left-img-box">
+        <%= image_tag "sushi.png", class: "left-img"%>
+        <%= image_tag "chinese.png", class: "left-img"%>
+      </div>
+      <div class="right-img-box">
+        <%= image_tag "meet.png", class: "right-img"%>
+        <%= image_tag "western.png", class: "right-img"%>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,3 +1,55 @@
-// Place all the styles related to the maps controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+* {
+  background-color: azure;
+}
+
+.header {
+  display: flex;
+}
+
+.header_left{
+  height: 8vh;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_right {
+  height: 8vh;
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-img {
+  width: 100wv;
+  display: flex;
+
+}
+
+.left-img-box {
+  height: 80vh;
+  width: 50vw;
+  background-color: burlywood;
+}
+
+.right-img-box {
+  height: 80vh;
+  width: 50vw;
+  background-color: cadetblue;
+}
+
+.left-img {
+  width: 80%;
+}
+
+.right-img {
+  width: 80%;
+}
