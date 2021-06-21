@@ -28,28 +28,14 @@
   align-items: center;
 }
 
-.top-img {
-  width: 100wv;
+.top-img-box {
+  height: 60vh;
+  width: 100vw;
   display: flex;
-
-}
-
-.left-img-box {
-  height: 80vh;
-  width: 50vw;
+  justify-content: center;
   background-color: burlywood;
 }
 
-.right-img-box {
-  height: 80vh;
-  width: 50vw;
-  background-color: cadetblue;
-}
-
-.left-img {
-  width: 80%;
-}
-
-.right-img {
-  width: 80%;
+.top-img {
+  width: 70%;
 }
