@@ -1,7 +1,8 @@
 * {
-  background-color: azure;
+  background-color: floralwhite;
 }
 
+// ヘッダー部分
 .header {
   display: flex;
 }
@@ -28,14 +29,20 @@
   align-items: center;
 }
 
+// トップ画面の画像関係
 .top-img-box {
   height: 60vh;
   width: 100vw;
   display: flex;
   justify-content: center;
-  background-color: burlywood;
 }
 
 .top-img {
   width: 70%;
+}
+
+// サービス紹介関係
+.introduction {
+  display: flex;
+  justify-content: center;
 }
