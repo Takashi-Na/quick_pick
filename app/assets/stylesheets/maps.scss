@@ -69,11 +69,17 @@
 .btn-area {
   display: flex;
   justify-content: center;
-  height: 20vh;
 }
 
-.btn {
+.btn-success {
   height: 50px;
   width: 500px;
-  margin-top: 25px;
+  margin-top: 50px;
+}
+
+.login_area {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  margin-top: 10px;
 }
