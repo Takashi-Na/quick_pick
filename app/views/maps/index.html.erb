@@ -22,7 +22,7 @@
 
     <%# 画面遷移ボタン %>
     <div class="btn-area">
-      <%= button_to 'お店を探す', 'maps#create', class: "btn btn-success"%>
+      <%= button_to 'お店を探す', searchs_path, method: :get, class: "btn btn-success"%>
     </div>
     <div class="login_area">
       <%= link_to 'ログインはこちら', '#', class: "login" %>
