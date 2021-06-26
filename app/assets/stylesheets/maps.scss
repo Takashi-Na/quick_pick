@@ -1,10 +1,7 @@
-* {
-  background-color: ivory;
-}
-
 // ヘッダー部分
 .header {
   display: flex;
+  background-color: ivory;
 }
 
 .header_left{
@@ -53,6 +50,7 @@
   width: 100vw;
   display: flex;
   justify-content: center;
+  background-color: ivory;
 }
 
 .top-img {
@@ -63,16 +61,19 @@
 .introduction {
   display: flex;
   justify-content: center;
+  background-color: ivory;
 }
 
 .topic {
   margin-top: 50px;
   margin-bottom: 20px;
+  background-color: ivory;
 }
 
 .intro-img {
   display: flex;
   justify-content: center;
+  background-color: ivory;
 }
 
 .left-intro {
@@ -87,6 +88,7 @@
 .btn-area {
   display: flex;
   justify-content: center;
+  background-color: ivory;
 }
 
 .btn-success {
@@ -98,6 +100,10 @@
 .login_area {
   display: flex;
   justify-content: center;
-  height: 30px;
+  height: 40px;
+  background-color: ivory;
+}
+
+.login {
   margin-top: 10px;
 }

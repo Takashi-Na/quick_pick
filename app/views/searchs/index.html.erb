@@ -6,14 +6,25 @@
 
   <%# main %>
   <div class="search">
-    検索項目
-  </div>
-  <div class="result_map_area">
     <div>
-      result
+      <p>場所</p>
     </div>
     <div>
-      map
+      <p>キーワード</p>
+    </div>
+    <div>
+      <p>距離</p>
+    </div>
+    <div>
+      <p>ボタン</p>
+    </div>
+  </div>
+  <div class="result-map-area">
+    <div class="result-area">
+      result
+    </div>
+    <div class="map-area" id="mapArea">
+      <script src="https://maps.googleapis.com/maps/api/js?key=#{ENV['GOOGLE_MAPS_API_KEY']}=places&callback=initMap" async defer></script>
     </div>
   </div>
 </div>
