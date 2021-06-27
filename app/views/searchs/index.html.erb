@@ -24,7 +24,7 @@
       result
     </div>
     <div class="map-area" id="mapArea">
-      <script src="https://maps.googleapis.com/maps/api/js?key=#{ENV['GOOGLE_MAPS_API_KEY']}=places&callback=initMap" async defer></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=<%=ENV['GOOGLE_MAP_API']%>&places&callback=initMap" async defer></script>
     </div>
   </div>
 </div>
