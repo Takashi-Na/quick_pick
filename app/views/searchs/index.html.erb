@@ -6,17 +6,39 @@
 
   <%# main %>
   <div class="search">
-    <div>
-      <p>場所</p>
+    <div class="place">
+      <div>
+        ・検索場所
+      </div>
+      <div>
+        <input type="text" id="addressInput" placeholder="例:東京駅" value="東京駅" style="width: 200px">
+      </div>
+    </div>
+    <div class="keyword">
+      <div>
+        ・キーワード
+      </div>
+      <div>
+        <input type="text" id="keywordInput" placeholder="例:寿司" value="寿司" style="width: 200px">
+      </div>
+    </div>
+    <div class="distance">
+      <div>
+        ・距離
+      </div>
+      <div>
+        <select id="radiusInput">
+          <option value="200" selected>200 m</option>
+          <option value="500">500 m</option>
+          <option value="800">800 m</option>
+          <option value="1000">1 km</option>
+          <option value="1500">1.5 km</option>
+          <option value="2000">2 km</option>
+        <select>
+      </div>
     </div>
     <div>
-      <p>キーワード</p>
-    </div>
-    <div>
-      <p>距離</p>
-    </div>
-    <div>
-      <p>ボタン</p>
+      <input type="button" value="検索" id="getPlace">
     </div>
   </div>
   <div class="result-map-area">
