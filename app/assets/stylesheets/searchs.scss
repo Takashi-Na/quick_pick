@@ -1,7 +1,15 @@
-.search {
-  height: 50px;
+.search-area {
+  height: 60px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: ivory;
+}
+
+.form-area {
+  height: 45px;
+  width: 60vw;
+  background-color: cadetblue;
 }
 
 .result-map-area {
@@ -11,7 +19,16 @@
 .result-area {
   height: 80vh;
   width: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: ivory;
+}
+
+.result {
+  height: 75vh;
+  width: 20vw;
+  background-color:cadetblue;
 }
 
 .map-area {

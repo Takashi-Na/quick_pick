@@ -5,8 +5,11 @@
   </div>
 
   <%# main %>
-  <div class="search">
-    <div class="place">
+  <div class="search-area">
+    <div class="form-area">
+      
+    </div>
+    <%# <div class="place">
       <div>
         ・検索場所
       </div>
@@ -39,14 +42,16 @@
     </div>
     <div>
       <input type="button" value="検索" id="getPlace">
-    </div>
+    </div> %>
   </div>
   <div class="result-map-area">
     <div class="result-area">
-      result
+      <div class="result">
+        result
+      </div>
     </div>
     <div class="map-area" id="mapArea">
-      <script src="https://maps.googleapis.com/maps/api/js?key=<%=ENV['GOOGLE_MAP_API']%>&places&callback=initMap" async defer></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=<%=ENV['GOOGLE_MAP_API']%>&libraries=places&callback=initMap" async defer></script>
     </div>
   </div>
 </div>
