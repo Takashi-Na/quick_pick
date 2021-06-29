@@ -8,9 +8,35 @@
 
 .form-area {
   height: 45px;
-  width: 60vw;
-  background-color: cadetblue;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.search_container{
+  box-sizing: border-box;
+}
+.search_container input[type="text"]{
+  background: #fff;
+  border: solid 3px #5cb85c;
+  height: 35px;
+}
+.search_container input[type="text"]:focus {
+  outline: 0;
+}
+.search_container input[type="submit"]{
+  cursor: pointer;
+  font-family: FontAwesome;
+  border: solid 3px #5cb85c;
+  background: #5cb85c;
+  color: #fff;
+  outline : none;
+  width: 3.0em;
+  height: 37px;
+}
+
+
 
 .result-map-area {
   display: flex;
