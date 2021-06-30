@@ -8,6 +8,7 @@
   <div class="search-area">
     <div class="form-area">
       <div class="search_container">
+        <%# ラベルをつける（divが必要？） %>
         <input type="text" size="25" placeholder=" 場所" id="addressInput" value="東京駅">
         <input type="text" size="25" placeholder=" キーワード" id="keywordInput" value="寿司">
         <select id="radiusInput" class="distance">
@@ -24,8 +25,10 @@
   </div>
   <div class="result-map-area">
     <div class="result-area">
-      <div class="rank_tittle">
-        <h4>ランキング</h4>
+      <div class="rank_tittle_area">
+        <div class="rank_tittle">
+          <%= image_tag "crown.png", class: "crown"%>ランキング
+        </div>
       </div>
       <div class="result_frame">
         <div class="result" id="results">
