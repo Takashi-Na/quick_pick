@@ -6,6 +6,7 @@
   GoogleMapの評価の高い順に表示をする。  
 
 ## URL
+  https://quick-pick-28780.herokuapp.com
 
 ## 利用方法
   検索したい場所とキーワードと距離を指定し、検索マークを押す  
