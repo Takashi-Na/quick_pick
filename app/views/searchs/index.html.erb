@@ -4,7 +4,7 @@
     <%= render "shared/header" %>
   </div>
 
-  <%# main %>
+  <%# フォーム %>
   <div class="search-area">
     <div class="form-area">
       <div class="search_container">
@@ -23,7 +23,11 @@
       </div>
     </div>
   </div>
+
+  <%# 結果表示＆マップ %>
   <div class="result-map-area">
+
+    <%# 結果 %>
     <div class="result-area">
       <div class="rank_tittle_area">
         <div class="rank_tittle">
@@ -31,11 +35,17 @@
         </div>
       </div>
       <div class="result_frame" id="results">
-        <%# result %>
       </div>
     </div>
+
+    <%# マップ %>
     <div class="map-area" id="mapArea">
       <script src="https://maps.googleapis.com/maps/api/js?key=<%=ENV['GOOGLE_MAP_API']%>&libraries=places&callback=initMap" async defer></script>
     </div>
+  </div>
+  
+  <%# フッター %>
+  <div class="footer">
+    <%= render "shared/footer" %>
   </div>
 </div>
