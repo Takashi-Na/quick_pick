@@ -53,6 +53,9 @@
   background-color: ivory;
 }
 
+.result {
+}
+
 .rank_tittle_area {
   height: 5vh;
 }
@@ -78,12 +81,8 @@
   left: 2vh;
   border: solid 3px #6091d3;/*線*/
   border-radius: 10px;/*角の丸み*/
-}
-
-.result {
-  height: 65vh;
-  width: 20vw;
-  background-color:ivory;
+  background-color: #fff;
+  overflow: scroll;
 }
 
 .map-area {
